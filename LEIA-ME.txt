@@ -1,0 +1,5 @@
+1. Railway > New Project > Deploy from GitHub (suba estes 3 arquivos num repositorio) ou "Empty Service" + este Dockerfile.
+2. Variables: PROXY_USER e PROXY_PASS (crie uma senha longa).
+3. Settings > Networking > TCP Proxy > porta 8888. Anote o endereco (ex: xxx.proxy.rlwy.net:12345).
+4. Settings > Static Outbound IPs > ativar. Cadastre esse IP na whitelist da LiberPay.
+5. No Lovable, cole: http://PROXY_USER:PROXY_PASS@xxx.proxy.rlwy.net:12345
